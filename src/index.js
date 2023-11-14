@@ -56,7 +56,7 @@ function App() {
 }
 
 function Header() {
-  return <h1>Fast React Pizza Company</h1>;
+  return <h1 style={{ color: "red" }}>Fast React Pizza Company</h1>;
 }
 
 function Menu() {
@@ -76,12 +76,7 @@ function Footer() {
   const openHour = 12;
   const closeHour = 22;
   const isOpen = hour >= openHour && hour <= closeHour;
-
-  //   if (hour >= openHour && hour <= closeHour) {
-  //     alert("We're currently open");
-  //   } else {
-  //     alert("Sorry we're closed");
-  //   }
+  console.log(isOpen);
   // What it looks like without JSX
   //return React.createElement("footer", null, "We're currently open!");
   return (
