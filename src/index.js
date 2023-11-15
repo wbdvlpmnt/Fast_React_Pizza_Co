@@ -69,13 +69,13 @@ function Menu() {
   return (
     <main className="menu">
       <h2>Our Menu</h2>
-      {pizzas.length > 0 && (
+      {pizzas.length > 0 ? (
         <ul className="pizzas">
           {pizzas.map((pizza) => {
             return <Pizza p={pizza} key={pizza.name} />;
           })}
         </ul>
-      )}
+      ) : null}
     </main>
   );
 }
