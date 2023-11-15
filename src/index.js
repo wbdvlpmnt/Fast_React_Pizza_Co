@@ -70,11 +70,15 @@ function Menu() {
     <main className="menu">
       <h2>Our Menu</h2>
       {pizzas.length > 0 ? (
-        <ul className="pizzas">
-          {pizzas.map((pizza) => {
-            return <Pizza p={pizza} key={pizza.name} />;
-          })}
-        </ul>
+        <>
+          <p>Authentic pizzas with fresh ingredients</p>
+
+          <ul className="pizzas">
+            {pizzas.map((pizza) => {
+              return <Pizza p={pizza} key={pizza.name} />;
+            })}
+          </ul>
+        </>
       ) : null}
     </main>
   );
