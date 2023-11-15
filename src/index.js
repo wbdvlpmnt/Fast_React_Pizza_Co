@@ -70,7 +70,7 @@ function Menu() {
     <main className="menu">
       <h2>Our Menu</h2>
       {pizzas.length > 0 ? (
-        <>
+        <React.Fragment>
           <p>Authentic pizzas with fresh ingredients</p>
 
           <ul className="pizzas">
@@ -78,7 +78,7 @@ function Menu() {
               return <Pizza p={pizza} key={pizza.name} />;
             })}
           </ul>
-        </>
+        </React.Fragment>
       ) : null}
     </main>
   );
