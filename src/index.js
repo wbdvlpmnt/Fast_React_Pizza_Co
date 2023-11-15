@@ -98,7 +98,16 @@ function Footer() {
   console.log(isOpen);
   // What it looks like without JSX
   //return React.createElement("footer", null, "We're currently open!");
-  return <footer className="footer">{isOpen && <p>Open</p>}</footer>;
+  return (
+    <footer className="footer">
+      {isOpen && (
+        <div className="order">
+          <p>We're open until {closeHour}:00. Come visit us or order online.</p>
+          <button className="btn">Order</button>
+        </div>
+      )}
+    </footer>
+  );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
