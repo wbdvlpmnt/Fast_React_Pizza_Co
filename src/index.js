@@ -86,7 +86,7 @@ function Menu() {
 
 function Pizza({ p }) {
   return (
-    <li className="pizza">
+    <li className={`pizza ${p.soldOut && "sold-out"}`}>
       <img src={p.photoName} alt={p.name} />
       <div>
         <h3>{p.name} </h3>
