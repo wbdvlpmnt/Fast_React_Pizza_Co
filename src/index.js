@@ -92,17 +92,13 @@ function Pizza(props) {
 
 function Footer() {
   const hour = new Date().getHours();
-  const openHour = 12;
+  const openHour = 8;
   const closeHour = 22;
   const isOpen = hour >= openHour && hour <= closeHour;
   console.log(isOpen);
   // What it looks like without JSX
   //return React.createElement("footer", null, "We're currently open!");
-  return (
-    <footer className="footer">
-      {new Date().toLocaleTimeString()} We're currently open
-    </footer>
-  );
+  return <footer className="footer">{isOpen && <p>Open</p>}</footer>;
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
