@@ -29,6 +29,7 @@ This is an example of passing props:
 <img width="249" alt="image" src="https://github.com/wbdvlpmnt/Fast_React_Pizza_Co./assets/139825457/9d026f0e-cf64-4a04-a34d-8ebbec34248a">
 
 A good practice is to pass the entire object as a prop and use prop destructuring to access the prop keys within the child component:
+<br/>
 <img width="249" alt="image" src="https://github.com/wbdvlpmnt/Fast_React_Pizza_Co./assets/139825457/52950524-13c8-446a-9637-86deccc803c7">
 
 # Rendering Lists
