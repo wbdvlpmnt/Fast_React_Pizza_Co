@@ -3,13 +3,13 @@ This project covers some of the fundamentals of building a React application. Th
 
 # Using Components
 A component in React is a function that returns JSX. Define a component and use it within a parent component as follows:
-![image](https://github.com/wbdvlpmnt/Fast_React_Pizza_Co./assets/139825457/c7512e53-f3bb-430f-9b3f-ca8a3debceef)
+<img width="401" alt="image" src="https://github.com/wbdvlpmnt/Fast_React_Pizza_Co./assets/139825457/c7512e53-f3bb-430f-9b3f-ca8a3debceef">
 
 Note a component is designed to be re-used in the application and can be used multiple times. We can combine multiple components, i.e. a header, menu and footer to create a single page application.
 <img width="401" alt="image" src="https://github.com/wbdvlpmnt/Fast_React_Pizza_Co./assets/139825457/9156e45d-12fa-4331-af37-dff7cddff796">
 
 We can also use logic inside the component:
-![image](https://github.com/wbdvlpmnt/Fast_React_Pizza_Co./assets/139825457/62d05730-27aa-44f6-8b1f-901962816ec0)
+<img width="401" alt="image" src="https://github.com/wbdvlpmnt/Fast_React_Pizza_Co./assets/139825457/62d05730-27aa-44f6-8b1f-901962816ec0">
 
 # Styling
 We can apply stlyes to HTML elements in a few different ways:
@@ -23,10 +23,10 @@ We can apply stlyes to HTML elements in a few different ways:
 React uses one way data binding. This allows us to pass data as props from a parent component to a child component. An important note about props is that they are immutable. If we want to update the data inside the prop (property) we must update the state in the parent component. 
 
 This is an example of passing props:
-![image](https://github.com/wbdvlpmnt/Fast_React_Pizza_Co./assets/139825457/9d026f0e-cf64-4a04-a34d-8ebbec34248a)
+<img width="249" alt="image" src="https://github.com/wbdvlpmnt/Fast_React_Pizza_Co./assets/139825457/9d026f0e-cf64-4a04-a34d-8ebbec34248a">
 
 A good practice is to pass the entire object as a prop and use prop destructuring to access the prop keys within the child component:
-![image](https://github.com/wbdvlpmnt/Fast_React_Pizza_Co./assets/139825457/52950524-13c8-446a-9637-86deccc803c7)
+<img width="249" alt="image" src="https://github.com/wbdvlpmnt/Fast_React_Pizza_Co./assets/139825457/52950524-13c8-446a-9637-86deccc803c7">
 
 # Rendering Lists
 We can use the array operator "map" to render lists, this is an example:
@@ -43,7 +43,7 @@ Another example of conditional rendering is the ternary operator, a provision fo
 
 # Component With 2 Returns:
 Useful when you want two different JSX returned from the same component:
-![image](https://github.com/wbdvlpmnt/Fast_React_Pizza_Co./assets/139825457/c0064458-507f-41ba-af02-a8fc502aae93)
+<img width="249" alt="image" src="https://github.com/wbdvlpmnt/Fast_React_Pizza_Co./assets/139825457/c0064458-507f-41ba-af02-a8fc502aae93">
 
 # Conditional Styling
 This is when you want a style on an element depending on logical conditions:
