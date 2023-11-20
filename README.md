@@ -3,6 +3,7 @@ This project covers some of the fundamentals of building a React application. Th
 
 # Using Components
 A component in React is a function that returns JSX. Define a component and use it within a parent component as follows:
+<br/>
 <img width="401" alt="image" src="https://github.com/wbdvlpmnt/Fast_React_Pizza_Co./assets/139825457/c7512e53-f3bb-430f-9b3f-ca8a3debceef">
 
 Note a component is designed to be re-used in the application and can be used multiple times. We can combine multiple components, i.e. a header, menu and footer to create a single page application.
